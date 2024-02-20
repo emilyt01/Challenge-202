@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: honeydew;
+    text-align: center;
+}
+
+#welcome-text{
+    padding-top: 5%;
+}
+
+#change-bg-color{
+    color: brown;
+    margin-top: 3%;
+}
+#name{
+    padding-top:5%;
+    color:aquamarine;
+    text-shadow: 1px 1px darkblue;
+    font-size:30px;
+}
+#box{
+    width:100px;
+    padding:50px;
+    margin-top:5%;
+    height:100px;
+    background-color:lightblue;
+}
+#toggle-text{
+    margin-top:5%;
+}
+#circle{
+    border-radius:50%;
+    background-color:lightgreen;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:80%;
+    left:85%;
+}
+
+.animate-box{
+    animation:move 5s;
+}
+
+.box{
+    animation: move 5s;
+}
+
+@keyframes move{
+    0%{
+        width:100px;
+    }
+    50%{
+        width:50px;
+    }
+    100%{
+        width:100px;
+    }
+}
